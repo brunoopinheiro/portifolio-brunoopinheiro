@@ -2,6 +2,7 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Bruno Pinheiro",
+  subTitle: "Desenvolvedor Web Full Stack",
   initials: "BP",
   location: "Recife, Pernambuco - Brasil",
   locationLink: "https://www.google.com/maps/place/Recife",
