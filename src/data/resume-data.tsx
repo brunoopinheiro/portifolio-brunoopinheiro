@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Recife, Pernambuco - Brasil",
   locationLink: "https://www.google.com/maps/place/Recife",
   about:
-    "Sou desenvolvedor web full stack, tendo passado pela Arqueologia onde aprendi e desenvolvi bastante minha comunicação, auto gestão e trabalho em equipe. Atualmente foco meus estudos na área de ciência e análise de dados.",
+    "Sou desenvolvedor web full stack, formado em Arqueologia onde aprendi e desenvolvi bastante minha comunicação, auto gestão e trabalho em equipe. Atualmente foco meus estudos na área de ciência e análise de dados.",
   summary:
-    "Profissional em transição de carreira, combinando uma formação acadêmica sólida em Arqueologia com experiência prática em Desenvolvimento Web. Possuo vivências educacionais na graduação em Arqueologica, onde desenvolvi capacidade analítica, habilidades de pesquisa e atenção aos detalhes. Essa experiência foi complementada pela educação prática, através de projetos, em Desenvolvimento Web, combinando um conhecimento técnico com a capacidade de resolução de problemas para construir experiências digitais engajantes e voltadas ao usuário. Buscando combinar essas proficiências diversas em uma nova e impactante trajetória profissional, busco ser adaptável, motivado e pronto para contruibuir com um conjunto único de habilidades para um time diverso.",
+    "Profissional em transição de carreira, combinando uma formação acadêmica sólida em Arqueologia com experiência prática em Desenvolvimento Web. Possuo vivências educacionais na graduação em Arqueologica, onde desenvolvi capacidade analítica, habilidades de pesquisa e atenção aos detalhes. Essa experiência foi complementada pela educação prática, através de projetos, em Desenvolvimento Web, combinando um conhecimento técnico com a capacidade de resolução de problemas para construir experiências digitais engajantes e voltadas ao usuário. Buscando combinar essas proficiências diversas em uma nova e impactante trajetória profissional, busco ser adaptável, motivado e pronto para contribuir com um conjunto único de habilidades para um time diverso.",
   avatarUrl: "https://avatars.githubusercontent.com/u/93209918?v=4",
   personalWebsiteUrl: "https://github.com/brunoopinheiro",
   contact: {
