@@ -61,7 +61,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "High Ease",
-      link: "",
+      link: "http://hie.tec.br/",
       badges: ["Híbrido"],
       title: "Desenvolvedor Júnior",
       start: "11/2023",
