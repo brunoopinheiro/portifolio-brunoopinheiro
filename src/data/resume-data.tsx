@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       description: "Residente da Pós Graduação em Robótica e Inteligência Artifical pelo CIn (Universidade Federal de Pernambuco) em parceria com a Softex-PE."
     },
     {
-      company: "High Ease",
+      company: "Hie Tec",
       link: "http://hie.tec.br/",
       badges: ["Híbrido"],
       title: "Desenvolvedor Júnior",
