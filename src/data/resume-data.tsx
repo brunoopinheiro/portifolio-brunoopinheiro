@@ -2,7 +2,7 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Bruno Pinheiro",
-  subTitle: "Desenvolvedor Web Full Stack",
+  subTitle: "Desenvolvedor Web Full Stack | Cientista de Dados",
   initials: "BP",
   location: "Recife, Pernambuco - Brasil",
   locationLink: "https://www.google.com/maps/place/Recife",
@@ -29,6 +29,13 @@ export const RESUME_DATA = {
     ],
   },
   education: [
+    {
+      school: "Residência em Robótica e Inteligência Artifical | CIn UFPE - Softex",
+      link: "https://residenciarobotica.cin.ufpe.br/",
+      degree: "Pós Graduação em Robótica e Inteligência Artifical",
+      start: "05/2024",
+      end: "03/2025",
+    },
     {
       school: "Santander Coders 2023.2 | ADA Tech",
       link: "https://ada.tech/sou-aluno/programas/santander-coders-2023",
@@ -60,14 +67,23 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "CIn UFPE - Softex",
+      link: "https://residenciarobotica.cin.ufpe.br/",
+      badges: ["Presencial"],
+      title: "Residente - Desenvolvedor",
+      start: "05/2024",
+      end: "03/2025",
+      description: "Residente da Pós Graduação em Robótica e Inteligência Artifical pelo CIn (Universidade Federal de Pernambuco) em parceria com a Softex-PE."
+    },
+    {
       company: "High Ease",
       link: "",
       badges: ["Híbrido"],
       title: "Desenvolvedor Júnior",
       start: "11/2023",
-      end: "01/2024",
+      end: "04/2024",
       description:
-        "Desenvolvimento Web Full Stack; modelagem e gerenciamento de bancos de dados; desenvolvimento de relatorios dinâmicos com MS SQL Reporting Service; integrações com ambientes Microsoft como SQL Server; Implementação de testes unitários. Technologies: React, Javascript, C#, SQL Server, SS Reporting Services, Robot Framework.",
+        "Desenvolvimento Web Full Stack; modelagem e gerenciamento de bancos de dados; desenvolvimento de relatorios dinâmicos com MS SQL Reporting Service; integrações com ambientes Microsoft como SQL Server; Implementação de testes unitários. Back-end com Flask. Technologies: React, Javascript, C#, SQL Server, SS Reporting Services, Robot Framework, Python.",
     },
     {
       company: "Freelancer",
@@ -125,6 +141,8 @@ export const RESUME_DATA = {
     "Cypress",
     "Mocha",
     "Robot Framework",
+    "Pandas",
+    "Machine Learning Models",
   ],
   projects: [
     {
