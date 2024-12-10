@@ -2,14 +2,14 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Bruno Pinheiro",
-  subTitle: "Desenvolvedor Web Full Stack | Cientista de Dados",
+  subTitle: "Full Stack Web Developer | Robotics | Artificial Intelligence | Data Scientist",
   initials: "BP",
   location: "Recife, Pernambuco - Brasil",
   locationLink: "https://www.google.com/maps/place/Recife",
   about:
-    "Sou desenvolvedor web full stack, formado em Arqueologia onde aprendi e desenvolvi bastante minha comunicação, auto gestão e trabalho em equipe. Atualmente foco meus estudos na área de ciência e análise de dados.",
+    "I'm a full stack web developer, finishing a post-graduate degree in Robotics and Artificial Intelligence.",
   summary:
-    "Profissional em transição de carreira, combinando uma formação acadêmica sólida em Arqueologia com experiência prática em Desenvolvimento Web. Possuo vivências educacionais na graduação em Arqueologica, onde desenvolvi capacidade analítica, habilidades de pesquisa e atenção aos detalhes. Essa experiência foi complementada pela educação prática, através de projetos, em Desenvolvimento Web, combinando um conhecimento técnico com a capacidade de resolução de problemas para construir experiências digitais engajantes e voltadas ao usuário. Buscando combinar essas proficiências diversas em uma nova e impactante trajetória profissional, busco ser adaptável, motivado e pronto para contribuir com um conjunto único de habilidades para um time diverso.",
+    "With a focus on code quality and software architectures, my main goal is to deliver digital solutions that can combine performance, user-centric experience, and code maintainability. I'm currently finishing a post-graduate degree in Robotics and Artificial Intelligence, where I'm being able to apply my previous knowledge and experience as a web developer to more robust and critical systems. Additionally, this experience led me to work with people from various backgrounds and different levels of experience, where I could both learn with and help other software developers.",
   avatarUrl: "https://avatars.githubusercontent.com/u/93209918?v=4",
   personalWebsiteUrl: "https://github.com/brunoopinheiro",
   contact: {
@@ -34,7 +34,7 @@ export const RESUME_DATA = {
       link: "https://residenciarobotica.cin.ufpe.br/",
       degree: "Pós Graduação em Robótica e Inteligência Artifical",
       start: "05/2024",
-      end: "03/2025",
+      end: "01/2025",
     },
     {
       school: "Santander Coders 2023.2 | ADA Tech",
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
     {
       company: "CIn UFPE - Softex",
       link: "https://residenciarobotica.cin.ufpe.br/",
-      badges: ["Presencial"],
+      badges: ["Robotics", "AI", "Back-end", "Front-end", "Python", "SQL", "Flutter"],
       title: "Residente - Desenvolvedor",
       start: "05/2024",
       end: "03/2025",
@@ -78,7 +78,7 @@ export const RESUME_DATA = {
     {
       company: "Hie Tec",
       link: "http://hie.tec.br/",
-      badges: ["Híbrido"],
+      badges: ["Front-end", "Back-end", "Full Stack", "Python", "React", "SQL"],
       title: "Desenvolvedor Júnior",
       start: "11/2023",
       end: "04/2024",
@@ -88,7 +88,7 @@ export const RESUME_DATA = {
     {
       company: "Freelancer",
       link: "",
-      badges: ["Remoto"],
+      badges: ["Others"],
       title: "Game Designer",
       start: "2021",
       end: "2023",
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
     {
       company: "UFPE",
       link: "",
-      badges: ["Presencial"],
+      badges: ["Others"],
       title: "Monitor - Arqueomática I",
       start: "01/2019",
       end: "06/2019",
@@ -106,7 +106,7 @@ export const RESUME_DATA = {
     {
       company: "UFPE",
       link: "",
-      badges: ["Presencial"],
+      badges: ["Others"],
       title: "Monitor - Arqueomática II",
       start: "07/2019",
       end: "12/2019",
@@ -122,21 +122,22 @@ export const RESUME_DATA = {
     "Testes End-to-End",
     "Linux",
     "Git",
-    "MS SQL",
-    "Reporting Service",
-    "JavaScript",
-    "TypeScript",
     "Python",
+    "SQL",
+    "TypeScript",
+    "JavaScript",
+    "Reporting Service",
     "Java",
     "HTML5",
     "CSS3",
+    "MS SQL",
     "React",
     "Node.js",
     "Express.js",
-    "SQL",
     "MongoDB",
     "Sequelize",
     "Docker",
+    "PyTest",
     "Jest",
     "Cypress",
     "Mocha",
@@ -145,6 +146,21 @@ export const RESUME_DATA = {
     "Machine Learning Models",
   ],
   projects: [
+    {
+      title: "Robot Checkers - Backend",
+      techStack: [
+        "Side Project",
+        "Python",
+        "Flask",
+        "Robotics",
+        "YOLO",
+      ],
+      description: "API para um jogo de damas automatizado, com reconhecimento de peças utilizando YOLO.",
+      link: {
+        label: "robot-checkers-backend",
+        href: "https://github.com/brunoopinheiro/robot_checkers_backend",
+      },
+    },
     {
       title: "Warfare Unit Card",
       techStack: [
@@ -156,6 +172,22 @@ export const RESUME_DATA = {
       link: {
         label: "warfare-unit-cards",
         href: "https://warfare-unit-card.vercel.app/",
+      },
+    },
+    {
+      title: "TIAGo Maze",
+      techStack: [
+        "Study",
+        "Python",
+        "ROS",
+        "Gazebo",
+        "OpenCV",
+        "Navigation",
+      ],
+      description: "Projeto de navegação autônoma de um robô móvel em um labirinto.",
+      link: {
+        label: "tiago_maze",
+        href: "https://github.com/brunoopinheiro/TIAGo_maze",
       },
     },
     {
