@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       badges: ["Palantir Foundry", "AI", "Back-end", "Front-end", "Python", "SQL", "Typescript"],
       title: "Desenvolvedor Full Stack",
       start: "07/2025",
-      // end: "06/2025",
+      end: "current",
       description: "Desenvolvedor Full Stack responsável por desenvolver soluções no Foundry para usuários finais e integrações entre os sistemas administrativos e operacionais do hotel."
     },
     {
