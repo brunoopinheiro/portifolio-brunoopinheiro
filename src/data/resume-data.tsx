@@ -67,7 +67,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "NANNAI Hub | NANNAI Resorts",
+      company: "NANNAI Hub - NANNAI Resorts",
       link: "https://www.nannai.com.br/",
       badges: ["Palantir Foundry", "AI", "Back-end", "Front-end", "Python", "SQL", "Typescript"],
       title: "Desenvolvedor Full Stack",
