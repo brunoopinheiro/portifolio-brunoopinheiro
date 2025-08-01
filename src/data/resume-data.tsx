@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Recife, Pernambuco - Brasil",
   locationLink: "https://www.google.com/maps/place/Recife",
   about:
-    "I'm a full stack web developer, finishing a post-graduate degree in Robotics and Artificial Intelligence.",
+    "I'm a software engineer, with knownledge in robotics, artificial intelligence and focus on python development.",
   summary:
-    "With a focus on code quality and software architectures, my main goal is to deliver digital solutions that can combine performance, user-centric experience, and code maintainability. I'm currently finishing a post-graduate degree in Robotics and Artificial Intelligence, where I'm being able to apply my previous knowledge and experience as a web developer to more robust and critical systems. Additionally, this experience led me to work with people from various backgrounds and different levels of experience, where I could both learn with and help other software developers.",
+    "With a focus on code quality and software architectures, my main goal is to deliver digital solutions that can combine performance, user-centric experience, and code maintainability. In my experience at the Robotics and Artificial Intelligence Graduation program, I was able to apply my previous knowledge and experience as a web developer to more robust and critical systems. Additionally, this experience led me to work with people from various backgrounds and different levels of experience, where I could both learn with and help other software developers.",
   avatarUrl: "https://avatars.githubusercontent.com/u/93209918?v=4",
   personalWebsiteUrl: "https://github.com/brunoopinheiro",
   contact: {
@@ -67,12 +67,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "NANNAI Hub | NANNAI Resorts",
+      link: "https://www.nannai.com.br/",
+      badges: ["Palantir Foundry", "AI", "Back-end", "Front-end", "Python", "SQL", "Typescript"],
+      title: "Desenvolvedor Full Stack",
+      start: "07/2025",
+      end: "current",
+      description: "Desenvolvedor Full Stack responsável por desenvolver soluções no Foundry para usuários finais e integrações entre os sistemas administrativos e operacionais do hotel."
+    },
+    {
       company: "CIn UFPE - Softex",
       link: "https://residenciarobotica.cin.ufpe.br/",
       badges: ["Robotics", "AI", "Back-end", "Front-end", "Python", "SQL", "Flutter"],
       title: "Residente - Desenvolvedor",
       start: "05/2024",
-      end: "03/2025",
+      end: "06/2025",
       description: "Residente da Pós Graduação em Robótica e Inteligência Artifical pelo CIn (Universidade Federal de Pernambuco) em parceria com a Softex-PE."
     },
     {
@@ -144,8 +153,35 @@ export const RESUME_DATA = {
     "Robot Framework",
     "Pandas",
     "Machine Learning Models",
+    "Palantir",
   ],
   projects: [
+    {
+      title: "Device Manager",
+      techStack: [
+        "Python",
+        "ADB",
+        "Zeroconf",
+      ],
+      description: "Device Manager is a python library made to ease the process of pairing, connecting and interacting with Android devices through Android Debug Bridge (ADB). It provides not only a set of methods to execute adb commands at the associated devices, but also some facility classes to manage the connection, the pairing process and the device interactions.",
+      link: {
+        label: "device-manager",
+        href: "https://github.com/Curso-de-Robotica-e-IA/device_manager",
+      },
+    },
+    {
+      title: "COSMIC - Code Output for State Machine Interactive Creation",
+      techStack: [
+        "Python",
+        "Finite State Machines",
+        "CLI Tool",
+      ],
+      description: "COSMIC is a CLI tool capable to generate state machine code based on a XML representation of the state machine. The tool was initially designed to be used by the Residence in Robotics and AI at the UFPE's informatics center.",
+      link: {
+        label: "cosmic",
+        href: "https://github.com/Curso-de-Robotica-e-IA/cosmic",
+      },
+    },
     {
       title: "Robot Checkers - Backend",
       techStack: [
